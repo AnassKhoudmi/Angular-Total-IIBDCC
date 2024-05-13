@@ -1,40 +1,102 @@
 {
+  "users": [
+    {
+      "id" : "user1",
+      "password": "MTIzNA==",
+      "roles": ["USER"],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoiQW5hc3MiLCJsYXN0bmFtZSI6IktIT1VETUkiLCJlbWFpbCI6ImFuYXNzLmtob3VkbWlAZ21haWwuY29tIiwicm9sZXMiOlsiVVNFUiJdfQ.Rs82sNtYWbigI7M_YEiglHzRzWlMgWcbUKDA2lrUr5g"
+    },
+    {
+      "id" : "user2",
+      "password": "MTIzNA==",
+      "roles": ["USER"],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoiQW5hc3MiLCJsYXN0bmFtZSI6IktIT1VETUkiLCJlbWFpbCI6ImFuYXNzLmtob3VkbWlAZ21haWwuY29tIiwicm9sZXMiOlsiVVNFUiJdfQ.ctns_PIMbMYVgU-TpAXNyjvBShCebSTC-q8mn7mzgwo"
+    },
+    {
+      "id" : "admin",
+      "password": "MTIzNA==",
+      "roles": ["USER","ADMIN"],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoiQW5hc3MiLCJsYXN0bmFtZSI6IktIT1VETUkiLCJlbWFpbCI6ImFuYXNzLmtob3VkbWlAZ21haWwuY29tIiwicm9sZXMiOlsiVVNFUiIsIkFETUlOIl19.HJ8ZBAD0rypmgz0lLdGc2ZUfLH6QFmc6jpb_qYT9y-8"
+    }
+  ],
   "products": [
     {
-      "id": "1",
-      "name": "Computer",
-      "price": 5600,
+      "id": 1,
+      "name": "Computertest",
+      "price": "11111",
+      "checked": false
+    },
+    {
+      "id": 3,
+      "name": "Computertest",
+      "price": "10000",
       "checked": true
     },
     {
-      "id": "2",
-      "name": "Computer",
-      "price": 5600,
-      "checked": true
+      "name": "Smart",
+      "price": "22222",
+      "checked": true,
+      "id": 6
     },
     {
-      "id": "3",
-      "name": "Computer",
-      "price": 5600,
-      "checked": true
+      "name": "Phone",
+      "price": "33333",
+      "checked": false,
+      "id": 7
     },
     {
-      "id": "db62",
-      "name": "smart",
-      "price": "2333",
-      "checked": true
+      "name": "test",
+      "price": "12121",
+      "checked": false,
+      "id": 8
     },
     {
-      "id": "5751",
-      "name": "smart",
-      "price": "2333",
-      "checked": true
+      "name": "test",
+      "price": "12121",
+      "checked": false,
+      "id": 9
     },
     {
-      "id": "42b7",
-      "name": "smart",
-      "price": "2333",
-      "checked": true
+      "name": "test",
+      "price": "12121",
+      "checked": true,
+      "id": 10
+    },
+    {
+      "name": "Anass",
+      "price": "32242",
+      "checked": true,
+      "id": 11
+    },
+    {
+      "name": "test",
+      "price": "43422",
+      "checked": true,
+      "id": 12
+    },
+    {
+      "name": "test",
+      "price": "43422",
+      "checked": true,
+      "id": 13
+    },
+    {
+      "name": "test",
+      "price": "43422",
+      "checked": false,
+      "id": 14
+    },
+    {
+      "name": "test",
+      "price": "33443",
+      "checked": true,
+      "id": 16
+    },
+    {
+      "name": "test",
+      "price": "12211",
+      "checked": true,
+      "id": 17
     }
   ]
 }
